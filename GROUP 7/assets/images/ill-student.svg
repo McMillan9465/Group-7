@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 200" role="img" aria-labelledby="illStudentTitle">
+  <title id="illStudentTitle">Illustration of a school bag, a stack of books and a pencil</title>
+  <ellipse cx="130" cy="180" rx="98" ry="11" fill="#EAE4D6"/>
+
+  <!-- backpack -->
+  <g>
+    <path d="M158 82 a34 30 0 0 1 68 0" fill="none" stroke="#C9822A" stroke-width="7" stroke-linecap="round"/>
+    <rect x="146" y="82" width="92" height="96" rx="20" fill="#E9A63B"/>
+    <rect x="162" y="122" width="60" height="44" rx="12" fill="#D89127"/>
+    <path d="M178 122 v-10 a14 14 0 0 1 28 0 v10" fill="none" stroke="#D89127" stroke-width="7"/>
+    <rect x="146" y="96" width="92" height="8" fill="#C9822A" opacity="0.55"/>
+  </g>
+
+  <!-- stack of books -->
+  <g>
+    <rect x="36" y="142" width="112" height="18" rx="5" fill="#1E2A4E"/>
+    <rect x="44" y="124" width="96" height="18" rx="5" fill="#2E7D5B"/>
+    <rect x="52" y="106" width="80" height="18" rx="5" fill="#C4576B"/>
+    <rect x="140" y="146" width="6" height="10" rx="2" fill="#F4EFE2"/>
+    <rect x="132" y="128" width="6" height="10" rx="2" fill="#F4EFE2"/>
+    <rect x="124" y="110" width="6" height="10" rx="2" fill="#F4EFE2"/>
+    <polygon points="60,106 60,90 70,96 80,90 80,106" fill="#E9A63B"/>
+  </g>
+
+  <!-- apple on the books -->
+  <g>
+    <circle cx="94" cy="94" r="13" fill="#C4576B"/>
+    <path d="M94 82 q1 -7 6 -9" fill="none" stroke="#7A4E2E" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="102" cy="76" rx="7" ry="4" fill="#2E7D5B" transform="rotate(-24 102 76)"/>
+  </g>
+
+  <!-- pencil -->
+  <g transform="rotate(-9 196 148)">
+    <rect x="158" y="144" width="66" height="9" rx="2" fill="#F2C14E"/>
+    <polygon points="224,144 236,148.5 224,153" fill="#E8D9B8"/>
+    <polygon points="232,147 236,148.5 232,150" fill="#33415E"/>
+    <rect x="150" y="144" width="8" height="9" rx="2" fill="#C4576B"/>
+  </g>
+
+  <!-- star -->
+  <path d="M214 44 l3.4 7.6 8.3 0.7 -6.3 5.5 1.9 8.1 -7.3 -4.4 -7.3 4.4 1.9 -8.1 -6.3 -5.5 8.3 -0.7 Z" fill="#F0B03F"/>
+</svg>

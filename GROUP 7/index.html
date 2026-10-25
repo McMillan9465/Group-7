@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starlight Primary School — Learning &amp; Teaching Portal</title>
+  <meta name="description" content="The learning platform of Starlight Primary School. Students read lessons and attempt quizzes; teachers publish lessons and review assignments.">
+  <meta name="theme-color" content="#1E2A4E">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <script src="assets/js/loader.js"></script>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.svg" alt="" width="42" height="42">
+        <span class="brand-text"><b>Starlight</b><span>Primary School</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link nav-link--hide" href="#portals">Portals</a>
+        <a class="nav-link nav-link--hide" href="#why">Why Starlight</a>
+        <a class="btn btn-ghost btn-sm" href="student/dashboard.html">Student portal</a>
+        <a class="btn btn-primary btn-sm" href="teacher/dashboard.html">Teacher portal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="kicker">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.2 14.7 9 21 9.8 16.4 14.1 17.6 20.4 12 17.3 6.4 20.4 7.6 14.1 3 9.8 9.3 9Z"/></svg>
+            Blantyre Standards 4 to 8
+          </span>
+          <h1 class="hero-title">Where bright young minds <em>shine</em></h1>
+          <p class="hero-lead">
+            Starlight Primary School brings lessons, quizzes and assignments together in one
+            friendly place — so learning can continue from the classroom to the kitchen table
+            and teachers can keep every piece of work in view.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-accent" href="student/dashboard.html">I am a student</a>
+            <a class="btn btn-primary" href="teacher/dashboard.html">I am a teacher</a>
+          </div>
+          <p class="hero-note">No passwords needed — choose a portal below and explore the school.</p>
+        </div>
+        <div class="hero-art">
+          <img src="assets/images/hero-school.svg" alt="Illustration of the Starlight Primary School building on a sunny day" width="560" height="440">
+        </div>
+      </div>
+    </section>
+
+    <!-- Role selection -->
+    <section class="roles" id="portals" aria-label="Choose your portal">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Choose your portal</span>
+          <h2>Two doors, one school.</h2>
+          <p>Pick the portal that matches your day. Everyone signs in through the same gate —
+             only the rooms inside are different.</p>
+        </div>
+
+        <div class="role-grid">
+          <article class="role-card">
+            <div class="role-art">
+              <img src="assets/images/ill-student.svg" alt="Illustration of a school bag, a stack of books and a pencil" width="260" height="200">
+            </div>
+            <div class="role-body">
+              <h3>Student portal</h3>
+              <p>Read illustrated lessons, test yourself with quick quizzes and hand in your
+                 assignments — all at your own pace.</p>
+              <ul class="role-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Read lessons from every subject</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Attempt quizzes and see your score instantly</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Keep track of assignments and progress</li>
+              </ul>
+            </div>
+            <a class="btn btn-accent btn-block" href="student/dashboard.html">Enter student portal
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="role-card role-card--teacher">
+            <div class="role-art">
+              <img src="assets/images/ill-teacher.svg" alt="Illustration of a chalkboard on an easel with books and a pointer" width="260" height="200">
+            </div>
+            <div class="role-body">
+              <h3>Teacher portal</h3>
+              <p>Publish new lessons in minutes, build matching quizzes and review submitted
+                 work from your whole class in one queue.</p>
+              <ul class="role-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Create and publish lessons</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Attach quizzes with an answer key</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Review and grade assignment submissions</li>
+              </ul>
+            </div>
+            <a class="btn btn-primary btn-block" href="teacher/dashboard.html">Enter teacher portal
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="why">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Why Starlight</span>
+          <h2>Everything a small school needs. Nothing it doesn't.</h2>
+          <p>Built for the way lessons actually happen — short, clear and easy to follow.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature">
+            <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.5C10.6 5 8.6 4.2 6.3 4.2c-1 0-2 .15-2.8.45V18.4c.8-.3 1.8-.45 2.8-.45 2.3 0 4.3.8 5.7 2.3 1.4-1.5 3.4-2.3 5.7-2.3 1 0 2 .15 2.8.45V4.65c-.8-.3-1.8-.45-2.8-.45-2.3 0-4.3.8-5.7 2.3Z"/><path d="M12 6.5v13.8"/></svg></span>
+            <h3>Structured lessons</h3>
+            <p>Every lesson follows the same simple shape: read, think, then practise.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4.5" width="14" height="16.5" rx="2.5"/><path d="M9 4.5V3.6A1.6 1.6 0 0 1 10.6 2h2.8A1.6 1.6 0 0 1 15 3.6v.9"/><path d="m9 13.5 2.2 2.2 4.3-4.7"/></svg></span>
+            <h3>Quick quizzes</h3>
+            <p>Multiple-choice quizzes are marked the moment they are submitted, with answers explained.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.4 5.5h13.2L21 13.5V18a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4.5Z"/><path d="M3 13.5h4.6l1.3 2.6h6.2l1.3-2.6H21"/></svg></span>
+            <h3>Assignment hand-in</h3>
+            <p>Pupils' work arrives in one organised queue, ready for a teacher to review.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5.5"/><path d="m8.8 13.5-1.6 7 4.8-2.6 4.8 2.6-1.6-7"/></svg></span>
+            <h3>Progress at a glance</h3>
+            <p>Scores and completed lessons are tracked quietly in the background.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Numbers band -->
+    <section class="band" aria-label="School in numbers">
+      <div class="container band-inner">
+        <div class="band-item"><b>300+</b><span>Learners</span></div>
+        <div class="band-item"><b>12</b><span>Teachers</span></div>
+        <div class="band-item"><b>6</b><span>Subjects</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <img src="assets/images/logo.svg" alt="" width="42" height="42">
+            <span class="brand-text"><b>Starlight</b><span>Primary School</span></span>
+          </a>
+          <p>A community school in Blantyre, Malawi, helping every child find their light —
+             in the classroom and beyond.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Portals</h3>
+          <ul>
+            <li><a href="student/dashboard.html">Student portal</a></li>
+            <li><a href="teacher/dashboard.html">Teacher portal</a></li>
+            <li><a href="index.html">Landing page</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Subjects</h3>
+          <ul>
+            <li><a href="student/lessons.html">Mathematics</a></li>
+            <li><a href="student/lessons.html">English</a></li>
+            <li><a href="student/lessons.html">Science</a></li>
+            <li><a href="student/lessons.html">Social Studies</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <address>
+            MUBAS building,<br>
+            Blantyre, Malawi<br>
+            +265 880 OO O4 O1 <br>
+            hello@starlightprimary.mw
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Starlight Primary School. All rights reserved.</span>
+        <span>Learning platform. Developed by Group 7</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
